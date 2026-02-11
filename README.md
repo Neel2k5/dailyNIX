@@ -1,9 +1,11 @@
-# 🌟 DailyNIX
+# [DailyNIX](https://daily-nix.vercel.app/)
 ##### *Linux Command of the Day* 🖥️
 
 ---
 
 Boost your Linux skills and productivity! 🚀 Every day, discover a new Linux command, learn what it does, and see usage examples. 📌 Bookmark your favorites for quick reference. Perfect for beginners and advanced users alike looking to level up their command line game. 💚
+
+[CHECK IT OUT](https://daily-nix.vercel.app/)
 
 ---
 
@@ -21,16 +23,15 @@ Boost your Linux skills and productivity! 🚀 Every day, discover a new Linux c
 
 ---
 
-## 🛠️ Technical Details for Contribution
+## 🛠️ Tech Stack
 
-### 💚 Tech Stack
-- **Next.js 13**  
-- **Supabase**  
-
-### 🚀 Installation Guide
-Follow the detailed installation steps here: [Installation Guide](https://github.com/your-username/your-repo/blob/main/INSTALLATION.md)
+ - NextJS (TS)
+ - Supabase (for Database)
+---
+Liked the application? Fill out this quick feedback form for a survey!! https://forms.gle/xfFiqWLBJU3nhPv49 
 
 ---
+
 
 ## 📜 License
 [Apache 2.0 License](./LICENSE.md)
