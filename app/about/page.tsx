@@ -1,3 +1,4 @@
+"use client"
 import NavMenu from "@/components/NavMenu";
 import SubText from "@/components/SubText";
 import TypographedLogo from "@/components/TypographedLogo";
