@@ -1,14 +1,20 @@
 import Card from "@/components/Card";
 import SubText from "@/components/SubText";
 import TypographedLogo from "@/components/TypographedLogo";
+import NavMenu from "@/components/NavMenu";
 import { JetBrains_Mono, Ubuntu_Mono } from "next/font/google";
+import { CurrentPage } from "@/types/CurrentPage";
 
 const jetBrainsMono = JetBrains_Mono();
-const ubuntuMono = Ubuntu_Mono({weight:"400"});
+const ubuntuMono = Ubuntu_Mono({ weight: "400" });
+
 export default function Home() {
   return (
-    <div className="bg-[#161616] h-screen cursor-default flex flex-col gap-0 m-0 p-0 ">
-      <div className="flex w-screen justify-center p-1">
+    <div className="bg-[#161616] h-screen cursor-default flex flex-col gap-0 m-0 p-0 relative">
+      <div className="absolute right-0">
+        <NavMenu currentPage={CurrentPage.HOME} fontObject={jetBrainsMono} />
+      </div>
+      <div className="flex w-screen pt-20 sm:pt-1 justify-center p-1">
         <TypographedLogo />
       </div>
       <div className="flex w-screen justify-center">
@@ -17,9 +23,9 @@ export default function Home() {
           text="Your Linux Command for today..."
           hexColour="707070"
         />
-      </div> 
+      </div>
       <div className="flex w-screen p-5 justify-center">
-        <Card  fontObject={ubuntuMono} />
+        <Card fontObject={ubuntuMono} />
       </div>
       <div className="flex w-screen justify-center">
         <SubText
