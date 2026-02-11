@@ -11,10 +11,10 @@ const ubuntuMono = Ubuntu_Mono({ weight: "400" });
 export default function Home() {
   return (
     <div className="bg-[#161616] h-screen cursor-default flex flex-col gap-0 m-0 p-0 relative">
-      <div>
+      <div className="absolute right-0">
         <NavMenu currentPage={CurrentPage.HOME} fontObject={jetBrainsMono} />
       </div>
-      <div className="flex w-screen pt-18 sm:pt-1 justify-center p-1">
+      <div className="flex w-screen pt-20 sm:pt-1 justify-center p-1">
         <TypographedLogo />
       </div>
       <div className="flex w-screen justify-center">

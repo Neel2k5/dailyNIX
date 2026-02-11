@@ -14,7 +14,7 @@ const NavMenu = ({
   const router = useRouter();
   return (
     <div
-      className={`h-10 bg-[#1a1a1a] flex text-2xl px-7 gap-2 justify-end text-[#B0B0B0] ${fontObject.className}`}
+      className={`h-10 absolute right-0  flex text-2xl px-7 gap-2 justify-end text-[#B0B0B0] ${fontObject.className}`}
     >
       <div
         onClick={() => router.push("/")}
